@@ -1,11 +1,14 @@
 using UnityEngine;
 
-public class InputManager : MonoBehaviour
+namespace ATMRush.PlayerInput
 {
-    [SerializeField] private PlayerInputData _playerInputData;
-
-    private void Update()
+    public class InputManager : MonoBehaviour
     {
-        _playerInputData.Horizontal = Input.GetAxis("Horizontal");
+        [SerializeField] private PlayerInputData _playerInputData;
+
+        private void Update()
+        {
+            _playerInputData.Horizontal = Input.GetAxis("Horizontal");
+        }
     }
 }
