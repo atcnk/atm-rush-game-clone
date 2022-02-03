@@ -1,7 +1,7 @@
 using UnityEngine;
 using ATMRush.PlayerInput;
 
-namespace ATMRush.PlayerMovement
+namespace ATMRush.Player.Movement
 {
     public class PlayerMovementController : MonoBehaviour
     {

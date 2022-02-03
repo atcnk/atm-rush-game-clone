@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ATMRush.PlayerMovement
+namespace ATMRush.Player.Movement
 {
     [CreateAssetMenu(menuName = "ATM Rush/Player/Movement Settings")]
     public class PlayerMovementSettings : ScriptableObject
