@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerMovementSetting
   m_EditorClassIdentifier: 
   _horizontalSpeed: 20
-  _verticalSpeed: 10
+  _verticalSpeed: 10.81

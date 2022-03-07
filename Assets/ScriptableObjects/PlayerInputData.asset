@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: PlayerInputData
   m_EditorClassIdentifier: 
   _horizontal: 0
+  _isPressed: 1
